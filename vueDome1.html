@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+
+    <body>
+        <div id="app">
+            {{name}}
+        </div>
+        ===
+        <div id="app2">
+                {{name}}
+            </div>
+    </body>
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+                name: "aa"
+            }
+        })
+        console.log(new Vue({
+            el:"#app2",
+            data:{name:'name'},
+            template: "<div id='dome'>{{name}}11</div>"
+        }))
+    </script>
+</html>
