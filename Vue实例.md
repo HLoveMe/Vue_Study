@@ -128,7 +128,7 @@
 		
 * Vue实例加载流程
 	
-	![](./images/lifecycle.pn)
+	![](./images/lifecycle.png)
 	
 * html加入Vue
 
